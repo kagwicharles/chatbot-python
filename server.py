@@ -13,6 +13,7 @@ train.trainBot(chatbot)
 @api.route('/chatbot', methods=['POST'])
 def get_companies():
     message = request.form.get('message')
+    print("From sender: "+message)
     bot_input = chatbot.get_response(message)
     companies = {"message": str(bot_input)}
     return json.dumps(companies)
