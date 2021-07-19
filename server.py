@@ -1,3 +1,12 @@
+"""
+
+This code starts the server at any of
+the computer's code and port 5000
+
+@author Charles Kagwi
+
+"""
+
 from flask import Flask, json, request
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer

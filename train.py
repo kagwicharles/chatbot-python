@@ -1,3 +1,11 @@
+"""
+
+This code trains the chatbot
+
+@author Charles Kagwi
+
+"""
+
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 
