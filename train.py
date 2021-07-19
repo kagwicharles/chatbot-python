@@ -12,14 +12,14 @@ from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 
 def trainBot(chatbot):
     conversation = [
-        "Watu wa stima",
-        "Wacha mambo ya stima wewe?",
-        "Mambo ya stima achia watu wa stima",
-        "Nitakufinya",
-        "Finya",
-        "Nitakufinya",
-        "Finya",
-        "Nitakufinya."
+        "What is your name",
+        "My name is Kagwi",
+        "Are you human",
+        "No am robo",
+        "Okay",
+        "Sawasawa",
+        "Kabisa",
+        "Kesho"
     ]
 
     trainer = ListTrainer(chatbot)
