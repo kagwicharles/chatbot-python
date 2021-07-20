@@ -4,6 +4,6 @@ Python server hosting chatbot
 # Steps to run
 1. Make sure sqlite is installed on your system
 2. pip install chatterbot
-3. copy and paste server.py and train.py on your working directory
+3. clone this repo
 4. run 'python server.py' - Starts http server on machine's ip at port 5000
-5. use chatbot android app to talk to your chatbot
+5. Download chatbot android app to talk to your chatbot(requires android version >=8)  [Download](https://docs.google.com/uc?export=download&id=12Kw3cVxshUQv5pLD9LrhBnD-1ISfO1eF )
