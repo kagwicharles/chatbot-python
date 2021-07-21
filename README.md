@@ -4,7 +4,7 @@ Python server hosting chatbot
 # Steps to run
 1. Make sure sqlite is installed on your system
 2. pip install chatterbot
-3. pip install chatterbot.trainers
+3. pip install chatterbot-corpus
 4. pip install flask
 5. clone this repo
 6. You can delete other files and leave server.py and train.py
